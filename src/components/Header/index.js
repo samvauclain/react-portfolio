@@ -17,17 +17,17 @@ function Header(props) {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
+                    <Nav.Link href="#deets">More deets</Nav.Link>
+                    <Nav.Link eventKey={2} href="#memes">
+                        Dank memes
+                    </Nav.Link>
+                    </Nav>
+                    <Nav>
                     {pages.map((page) => (
                         <Nav.Link className={`nav-item ${currentPage.name === page.name && "active"}`}key={page.name}>
                         <span onClick={() => {setCurrentPage(page)}}>{page.name}</span>
                         </Nav.Link>
                         ))}
-                    </Nav>
-                    <Nav>
-                    <Nav.Link href="#deets">More deets</Nav.Link>
-                    <Nav.Link eventKey={2} href="#memes">
-                        Dank memes
-                    </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
                 </Container>
