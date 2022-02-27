@@ -14,7 +14,7 @@ function App() {
   const [pages] = useState([
     {
       name: "Home", 
-      description: "Hello world",
+      description: "Hello world!",
     },
     {
       name: "About", 
