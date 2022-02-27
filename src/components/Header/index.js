@@ -10,7 +10,7 @@ function Header(props) {
     } = props;
     
     return (
-        <header className="">
+        <header className="pb-3">
           <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
                 <Container>
                 <Navbar.Brand><span class="material-icons static-gradient position-relative align-icons">extension</span> Sam Place</Navbar.Brand>

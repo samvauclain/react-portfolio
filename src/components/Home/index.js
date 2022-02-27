@@ -5,9 +5,9 @@ import helloWorld from "../../assets/hello-world.png";
 function Home() {
     return (
         <Container>
-        <Row className="my-3 justify-content-md-center">
+        <Row className="my-3 justify-content-md-center py-3">
             <Col className="my-3 col-12 col-md-8 col-lg-6">
-                <img src = {helloWorld} alt="hello world" className='helloWorld w-100'/>
+                <img src = {helloWorld} alt="hello world" className='helloWorld w-100 offsest-box-color-1'/>
             </Col>
             <Col className="my-3 col-12 col-md-4 col-lg-6">
             <span class="material-icons xl-icon color-1">
