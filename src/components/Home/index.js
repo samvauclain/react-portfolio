@@ -10,11 +10,11 @@ function Home() {
                 <img src = {helloWorld} alt="hello world" className='helloWorld w-100 offsest-box-color-1'/>
             </Col>
             <Col className="my-3 col-12 col-md-4 col-lg-6">
-            <span class="material-icons xl-icon color-1">
+            <span className="material-icons xl-icon color-1">
                     devices
                 </span>
-                <p class="xl-txt">Hello World!</p>
-                <p class="lg-txt">
+                <p className="xl-txt">Hello World!</p>
+                <p className="lg-txt">
                     I'M SAM PLACE &amp; I'M A WEB&nbsp;DEVELOPER
                 </p>
             </Col>

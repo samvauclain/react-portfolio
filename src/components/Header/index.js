@@ -13,7 +13,7 @@ function Header(props) {
         <header className="pb-3">
           <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
                 <Container>
-                <Navbar.Brand><span class="material-icons static-gradient position-relative align-icons">extension</span> Sam Place</Navbar.Brand>
+                <Navbar.Brand><span class="material-icons static-gradient position-relative align-icons">extension</span> Portfolio For Sam Place</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
