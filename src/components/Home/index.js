@@ -46,7 +46,7 @@ function Home() {
         </Card>
 
         <Row className="my-3 justify-content-md-center text-center">
-            <Col className="col">
+            <Col className="col mb-2">
                 <Card>
                     <Card.Body>  
                         <Col className="mt-2">
@@ -56,7 +56,7 @@ function Home() {
                     </Card.Body>
                 </Card>
             </Col>
-            <Col className="col">
+            <Col className="col mb-2">
             <Card>
                 <Card.Body>            
                 <Col className="mt-2">
@@ -66,7 +66,7 @@ function Home() {
                 </Card.Body>
             </Card>
             </Col>
-            <Col className="col">
+            <Col className="col mb-2">
             <Card>
                 <Card.Body>            
                 <Col className="mt-2">
@@ -76,7 +76,7 @@ function Home() {
                 </Card.Body>
             </Card>
             </Col>
-            <Col className="col">
+            <Col className="col mb-2">
             <Card>
                 <Card.Body>            
                 <Col className="mt-2">
@@ -86,7 +86,7 @@ function Home() {
                 </Card.Body>
             </Card>
             </Col>
-            <Col className="col">
+            <Col className="col mb-2">
             <Card>
                 <Card.Body>            
                 <Col className="mt-2">
@@ -96,7 +96,7 @@ function Home() {
                 </Card.Body>
             </Card>
             </Col>
-            <Col className="col">
+            <Col className="col mb-2">
             <Card>
                 <Card.Body>            
                 <Col className="mt-2">
@@ -106,7 +106,7 @@ function Home() {
                 </Card.Body>
             </Card>
             </Col>
-            <Col className="col">
+            <Col className="col mb-2">
             <Card>
                 <Card.Body>            
                 <Col className="mt-2">

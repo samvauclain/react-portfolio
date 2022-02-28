@@ -1,5 +1,11 @@
 # React Portfolio for Sam Place
 
+## URL:
+https://samvauclain.github.io/react-portfolio/
+
+## Screenshot:
+![Screenshot](src/assets/screenshot.png)
+
 ## User Story
 AS AN employer looking for candidates with experience building single-page applications
 
