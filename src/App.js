@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Home from './components/Home';
 import Header from './components/Header';
-import Portfolio from './components/Portfolio'
+import Project from './components/Project'
 import Resume from './components/Resume';
 import About from './components/About';
 import Contact from './components/Contact';
@@ -22,7 +22,7 @@ function App() {
       description: "I have a background in web and graphic design, and have worn a lot of hats relating to those fields. Currently, I'm a web administrator. Lately I've been learning more about web development, and loving it! I've decided to pursue web development as a career change.",
     },
     { 
-      name: "Portfolio",
+      name: "Project",
       description: "My Work" },
     { 
       name: "Resume", 
@@ -46,7 +46,7 @@ function App() {
           setContactSelected={setContactSelected}
         ></Header>
       <main>
-      {currentPage.name === "Home" ? <Home/> : currentPage.name === "About" ? <About/> : currentPage.name === "Portfolio" ? <Portfolio/>: currentPage.name === "Contact" ? <Contact /> : <Resume></Resume>}    
+      {currentPage.name === "Home" ? <Home/> : currentPage.name === "About" ? <About/> : currentPage.name === "Portfolio" ? <Project/>: currentPage.name === "Contact" ? <Contact /> : <Resume></Resume>}    
       </main>
       <Footer></Footer>
     </div>

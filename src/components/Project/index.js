@@ -6,7 +6,7 @@ import taskinator from "../../assets/taskinator.jpg";
 import runBuddy from "../../assets/run-buddy.jpg";
 import horiseon from "../../assets/horiseon.jpg";
 
-function Portfolio() {
+function Project() {
     return (
         <Container>
         <Row className="justify-content-md-center align-items-center my-3 py-3">
@@ -87,4 +87,4 @@ function Portfolio() {
     )
 }
 
-export default Portfolio;
+export default Project;
