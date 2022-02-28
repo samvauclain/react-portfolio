@@ -26,7 +26,7 @@ function About() {
                     <Card.Body>
                     <Row>
                         <Col className="col-12 col-lg-4">
-                            <span class="material-icons xl-icon">color_lens</span> 
+                            <span class="material-icons xl-icon color-1">color_lens</span> 
                         </Col>
                         <Col className="mt-2">
                             <h3 className="mb-0">Web</h3>
@@ -41,7 +41,7 @@ function About() {
                 <Card.Body>
                     <Row>
                     <Col className="col-12 col-lg-4">
-                    <span class="material-icons xl-icon">code</span> 
+                    <span class="material-icons xl-icon color-2">code</span> 
                     </Col>
                         <Col className="col-12 col-lg-8 mt-2">
                             <h3 className="mb-0">Front End</h3>
@@ -56,7 +56,7 @@ function About() {
                 <Card.Body>
                     <Row>
                         <Col className="col-12 col-lg-4">
-                            <span class="material-icons xl-icon">filter_alt</span>
+                            <span class="material-icons xl-icon color-3">filter_alt</span>
                         </Col>
                         <Col className="col-12 col-lg-8 mt-2">
                             <h3 className="mb-0">Database</h3>

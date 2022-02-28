@@ -6,7 +6,7 @@ import taskinator from "../../assets/taskinator.jpg";
 import runBuddy from "../../assets/run-buddy.jpg";
 import horiseon from "../../assets/horiseon.jpg";
 
-function Project() {
+function Portfolio() {
     return (
         <Container>
         <Row className="justify-content-md-center align-items-center my-3 py-3">
@@ -22,6 +22,8 @@ function Project() {
                 <p className="xl-txt mb-1">Featured Project:</p>
                 <p className="lg-txt mb-0">WALK'N SPOT</p>
                 <p>Search for a list of trails by city & types of animals seen on the trails.</p>   
+                <Button variant="primary"><a href="https://walk-n-spot.herokuapp.com/" target="_blank" rel="noreferrer">View Project</a></Button>
+                
             </Card.Body>
             </Card>
             </Col>
@@ -32,12 +34,11 @@ function Project() {
             <Card>
                 <Card.Img variant="top" src = {dreamHome} alt="hello world" className='dreamHome w-100 offsest-box-color-3-sm' />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Dream Home</Card.Title>
                     <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                    Weather & Real Estate Combined. Find your dream home with your prefered weather.
                     </Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
+                    <Button variant="primary"><a href="https://samvauclain.github.io/weather-and-real-estate/" target="_blank" rel="noreferrer">View Project</a></Button>
                 </Card.Body>
                 </Card>
             </Col>
@@ -45,12 +46,11 @@ function Project() {
             <Card>
             <Card.Img variant="top" src = {taskinator} alt="hello world" className='taskinator w-100 offsest-box-color-3-sm' />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Taskinator</Card.Title>
                     <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                    A to-do and kanban board wrapped into one website app. Create tasks and update their status to increase your productivity.
                     </Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
+                    <Button variant="primary"><a href="https://samvauclain.github.io/taskinator/" target="_blank" rel="noreferrer">View Project</a></Button>
                 </Card.Body>
                 </Card>
             </Col>
@@ -58,12 +58,11 @@ function Project() {
             <Card>
             <Card.Img variant="top" src =  {runBuddy} alt="hello world" className='runBuddy w-100 offsest-box-color-3-sm' />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Run Buddy</Card.Title>
                     <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                    Run Buddy needed a landing page for fitness membership sign ups. Built with HTML5 and CSS3.
                     </Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
+                    <Button variant="primary"><a href="https://samvauclain.github.io/run-buddy/" target="_blank" rel="noreferrer">View Project</a></Button>
                 </Card.Body>
                 </Card>
             </Col>
@@ -71,12 +70,11 @@ function Project() {
             <Card>
             <Card.Img variant="top" src =  {horiseon} alt="hello world" className='horiseon w-100 offsest-box-color-3-sm' />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Horiseon</Card.Title>
                     <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                    Horiseon needed a code refactor, to make their site more effecient and accessible. I condensed the code and added the needed accessibilty tags. Refactored HTML5 and CSS3.
                     </Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
+                    <Button variant="primary"><a href="https://samvauclain.github.io/mod-1-challenge/" target="_blank" rel="noreferrer">View Project</a></Button>
                 </Card.Body>
                 </Card>
             </Col>
@@ -87,4 +85,4 @@ function Project() {
     )
 }
 
-export default Project;
+export default Portfolio;

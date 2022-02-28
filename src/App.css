@@ -18,12 +18,21 @@
   box-shadow: -10px -10px 0px #147e65;
 }
 
+a {
+  text-decoration:none!important;
+  color:#fff!important;
+}
+
 .color-1 {
   color: #23a6d5;
 }
 
 .color-2 {
   color: #ee7752;
+}
+
+.color-3 {
+  color: #147e65;
 }
 
 .color-4 {
