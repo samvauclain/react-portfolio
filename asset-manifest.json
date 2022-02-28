@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.e9eb5c67.css",
-    "main.js": "/react-portfolio/static/js/main.08ae34ad.js",
+    "main.css": "/react-portfolio/static/css/main.93fe8020.css",
+    "main.js": "/react-portfolio/static/js/main.cdf3a2c8.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/weather-real-estate.png": "/react-portfolio/static/media/weather-real-estate.94b9f906d5a6e0501d43.png",
+    "static/media/Sam-Place-Web-Development-and-Design-v2.png": "/react-portfolio/static/media/Sam-Place-Web-Development-and-Design-v2.4fb274d30cdb7017b8a3.png",
     "static/media/walk-n-spot.png": "/react-portfolio/static/media/walk-n-spot.4292a0ade9ec62178ce9.png",
     "static/media/hello-world.png": "/react-portfolio/static/media/hello-world.19e8167544164596893c.png",
+    "static/media/Sam-Place-Web-Development-and-Design-v2.pdf": "/react-portfolio/static/media/Sam-Place-Web-Development-and-Design-v2.94880b3192e3669a3310.pdf",
     "static/media/icon_mongo.png": "/react-portfolio/static/media/icon_mongo.c0a738ad57ddf8cd8594.png",
     "static/media/horiseon.jpg": "/react-portfolio/static/media/horiseon.a4b9b9e52a0d968a429d.jpg",
     "static/media/run-buddy.jpg": "/react-portfolio/static/media/run-buddy.7e63668d2b4a51914298.jpg",
     "static/media/me-2-min.jpg": "/react-portfolio/static/media/me-2-min.23e16fd22f2768e11e49.jpg",
     "static/media/taskinator.jpg": "/react-portfolio/static/media/taskinator.f63f740421029b3241db.jpg",
     "index.html": "/react-portfolio/index.html",
-    "main.e9eb5c67.css.map": "/react-portfolio/static/css/main.e9eb5c67.css.map",
-    "main.08ae34ad.js.map": "/react-portfolio/static/js/main.08ae34ad.js.map",
+    "main.93fe8020.css.map": "/react-portfolio/static/css/main.93fe8020.css.map",
+    "main.cdf3a2c8.js.map": "/react-portfolio/static/js/main.cdf3a2c8.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9eb5c67.css",
-    "static/js/main.08ae34ad.js"
+    "static/css/main.93fe8020.css",
+    "static/js/main.cdf3a2c8.js"
   ]
 }
