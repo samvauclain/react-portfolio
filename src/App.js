@@ -5,6 +5,7 @@ import Portfolio from './components/Portfolio'
 import Resume from './components/Resume';
 import About from './components/About';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
@@ -47,6 +48,7 @@ function App() {
       <main>
       {currentPage.name === "Home" ? <Home/> : currentPage.name === "About" ? <About/> : currentPage.name === "Portfolio" ? <Portfolio/>: currentPage.name === "Contact" ? <Contact /> : <Resume></Resume>}    
       </main>
+      <Footer></Footer>
     </div>
   );
 }

@@ -14,12 +14,16 @@ function Portfolio() {
                 <img src = {walkNSpot} alt="hello world" className='walkNSpot w-100 offsest-box-color-2'/>
             </Col>
             <Col className="my-3 col-12 col-md-4 col-lg-6">
+            <Card className="py-3">
+            <Card.Body>   
             <span className="material-icons xl-icon color-2">
                     devices
                 </span>
                 <p className="xl-txt mb-1">Featured Project:</p>
                 <p className="lg-txt mb-0">WALK'N SPOT</p>
-                <p>Search for a list of trails by city & types of animals seen on the trails.</p>
+                <p>Search for a list of trails by city & types of animals seen on the trails.</p>   
+            </Card.Body>
+            </Card>
             </Col>
         </Row>
 
