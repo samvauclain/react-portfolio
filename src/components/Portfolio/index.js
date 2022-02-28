@@ -9,7 +9,7 @@ import horiseon from "../../assets/horiseon.jpg";
 function Portfolio() {
     return (
         <Container>
-        <Row className="my-3 justify-content-md-center py-3">
+        <Row className="justify-content-md-center align-items-center my-3 py-3">
             <Col className="my-3 col-12 col-md-8 col-lg-6">
                 <img src = {walkNSpot} alt="hello world" className='walkNSpot w-100 offsest-box-color-2'/>
             </Col>
@@ -17,13 +17,13 @@ function Portfolio() {
             <span className="material-icons xl-icon color-2">
                     devices
                 </span>
-                <p className="xl-txt">Featured Project:</p>
-                <p className="lg-txt">WALK'N SPOT</p>
+                <p className="xl-txt mb-1">Featured Project:</p>
+                <p className="lg-txt mb-0">WALK'N SPOT</p>
                 <p>Search for a list of trails by city & types of animals seen on the trails.</p>
             </Col>
         </Row>
 
-        <Row>
+        <Row className="my-3 py-3">
             <Col>
             <Card>
                 <Card.Img variant="top" src = {dreamHome} alt="hello world" className='dreamHome w-100 offsest-box-color-3-sm' />

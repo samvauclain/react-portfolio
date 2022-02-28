@@ -22,6 +22,15 @@
   color: #ee7752;
 }
 
+.btn-primary {
+  background-color: #ee7752!important;
+  border-color:#f35c2e!important;
+}
+
+.btn-primary:hover {
+  background-color: #fa9677!important;
+}
+
 .profilePic {
   width: 100px;
   filter: grayscale(1);
