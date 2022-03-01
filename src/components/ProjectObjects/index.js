@@ -19,18 +19,25 @@ const [projects] = useState(
             text: "Weather & Real Estate Combined. Find your dream home with your prefered weather.",
         },
         {
-            name: "Dream Home",
-            image: "weather-real-estate",
-            github: "https://github.com/samvauclain/weather-and-real-estate",
-            link: "https://samvauclain.github.io/weather-and-real-estate/",
-            text: "Weather & Real Estate Combined. Find your dream home with your prefered weather.",
+            name: "Taskinator",
+            image: "taskinator",
+            github: "https://github.com/samvauclain/taskinator",
+            link: "https://samvauclain.github.io/taskinator/",
+            text: "A to-do and kanban board wrapped into one website app. Create tasks and update their status to increase your productivity.",
         },
         {
-            name: "Dream Home",
-            image: "weather-real-estate",
-            github: "https://github.com/samvauclain/weather-and-real-estate",
-            link: "https://samvauclain.github.io/weather-and-real-estate/",
-            text: "Weather & Real Estate Combined. Find your dream home with your prefered weather.",
+            name: "Run Buddy",
+            image: "run-buddy",
+            github: "https://github.com/samvauclain/run-buddy",
+            link: "https://samvauclain.github.io/run-buddy/",
+            text: "Run Buddy needed a landing page for fitness membership sign ups. Built with HTML5 and CSS3.",
+        },
+        {
+            name: "Horiseon",
+            image: "horiseon",
+            github: "https://github.com/samvauclain/mod-1-challenge",
+            link: "https://samvauclain.github.io/mod-1-challenge/",
+            text: "Horiseon needed a code refactor, to make their site more effecient and accessible. I condensed the code and added the needed accessibilty tags. Refactored HTML5 and CSS3.",
         }
     ])
 
