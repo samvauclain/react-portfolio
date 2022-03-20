@@ -1,16 +1,17 @@
 import React, { useState } from 'react';
 import { Row, Col, Card, Button } from 'react-bootstrap';
 
-// image: walk-n-spot.png
-// image: weather-real-estate.png
-// image: taskinator
-// image: run-buddy
-// image: horiseon
-
 const ProjectObjects = () => {
    
 const [projects] = useState(
     [ 
+        {
+            name: "Walk 'n Spot",
+            image: "walk-n-spot",
+            github: "https://github.com/samvauclain/Walk-n-Spot",
+            link: "https://walk-n-spot.herokuapp.com",
+            text: "Search for a list of trails by city & types of animals seen on the trails.",
+        },
         {
             name: "Dream Home",
             image: "weather-real-estate",
@@ -32,13 +33,6 @@ const [projects] = useState(
             link: "https://samvauclain.github.io/run-buddy/",
             text: "Run Buddy needed a landing page for fitness membership sign ups. Built with HTML5 and CSS3.",
         },
-        {
-            name: "Horiseon",
-            image: "horiseon",
-            github: "https://github.com/samvauclain/mod-1-challenge",
-            link: "https://samvauclain.github.io/mod-1-challenge/",
-            text: "Horiseon needed a code refactor, to make their site more effecient and accessible. I condensed the code and added the needed accessibilty tags. Refactored HTML5 and CSS3.",
-        }
     ])
 
 return (     

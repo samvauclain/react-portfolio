@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
-import { Row, Col, Card, Button } from 'react-bootstrap';
+import { Col, Card, Button } from 'react-bootstrap';
 
 const FeaturedProjectObjects = () => {
 
 const [featuredProjects] = useState(
     [
         {
-            name: "Walk 'n Spot",
-            image: "walk-n-spot",
-            github: "https://github.com/samvauclain/Walk-n-Spot",
-            link: "https://walk-n-spot.herokuapp.com",
-            text: "Search for a list of trails by city & types of animals seen on the trails.",
+            name: "Nosh Up",
+            image: "nosh-up",
+            github: "https://github.com/samvauclain/Nosh-Up",
+            link: "https://nosh-up.herokuapp.com/",
+            text: "Find new friends, discover new restaurants, eat delicious meals.",
         },
 
     ])
