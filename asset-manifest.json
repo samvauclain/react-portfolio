@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.93fe8020.css",
-    "main.js": "/react-portfolio/static/js/main.fc117b3b.js",
+    "main.js": "/react-portfolio/static/js/main.9cc24a49.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/nosh-up.jpg": "/react-portfolio/static/media/nosh-up.589a38e88115d9d9b91f.jpg",
     "static/media/weather-real-estate.jpg": "/react-portfolio/static/media/weather-real-estate.94b9f906d5a6e0501d43.jpg",
     "static/media/Sam-Place-Web-Development-and-Design-v2.png": "/react-portfolio/static/media/Sam-Place-Web-Development-and-Design-v2.4fb274d30cdb7017b8a3.png",
     "static/media/walk-n-spot.jpg": "/react-portfolio/static/media/walk-n-spot.4292a0ade9ec62178ce9.jpg",
@@ -16,11 +17,11 @@
     "static/media/taskinator.jpg": "/react-portfolio/static/media/taskinator.f63f740421029b3241db.jpg",
     "index.html": "/react-portfolio/index.html",
     "main.93fe8020.css.map": "/react-portfolio/static/css/main.93fe8020.css.map",
-    "main.fc117b3b.js.map": "/react-portfolio/static/js/main.fc117b3b.js.map",
+    "main.9cc24a49.js.map": "/react-portfolio/static/js/main.9cc24a49.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.93fe8020.css",
-    "static/js/main.fc117b3b.js"
+    "static/js/main.9cc24a49.js"
   ]
 }
